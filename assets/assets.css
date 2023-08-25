@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+   
+}
+/* Start header */
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+
+.header {}
+
+.header .menu {}
+
+.header>.menu>li {
+    float: left;
+    list-style: none;
+
+}
+
+.header .menu>li>a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 24px;
+    display: block;
+    line-height: 46px;
+}
+
+.header .menu>li>a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.search {
+    float: right;
+    line-height: 46px;
+}
+
+.search i {
+    display: block;
+    color: #fff;
+    padding: 0 24px;
+}
+
+.search i:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.first-menu:hover .submenu {
+    display: block;
+}
+
+.first-menu .submenu {
+    display: none;
+    background-color: #fff;
+}
+
+.first-menu .submenu li {
+    list-style: none;
+
+}
+
+.first-menu .submenu li a {
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.first-menu .submenu li a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+/* End header */
+
+#slider {
+    padding-top: 50%;
+    background-image: url('https://www.w3schools.com/w3images/chicago.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content-slider {
+    width: 100%;
+    position: absolute;
+    bottom: 48px;
+    text-align: center;
+}
+
+.content-slider .location{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.content-slider p {
+    color: #fff;
+}
+
+/* 
+.container{
+    background-color: #ccc;
+    height: 800px;
+}
+
+.box1{
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+   
+    /* margin-top: 40px; */
+/* } */
+
+/* .child-box1{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.box2{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+} */
