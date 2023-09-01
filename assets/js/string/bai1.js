@@ -1,6 +1,6 @@
 var inputType = document.querySelector("#input")
-var btnAdd = document.querySelector("#btn")
-var btnRes = document.querySelector("#btn-result-1")
+var btnAdd = document.querySelector("#btn-add")
+var btnRes = document.querySelector("#btn-calculator-1")
 
 
 var myString = "";
